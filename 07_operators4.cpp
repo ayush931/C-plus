@@ -13,6 +13,13 @@ int main() {
     a==name? flag=true:flag=false;
     cout<<flag<<endl; // 0
 
+    int c=6;
+    cout<<(c++)<<endl; // Post increment operator
+    int b=5;
+    cout<<(--b)<<endl; // Pre decrement operator
+    int d=c+6;
+    cout<<d<<endl; // 13
+
     return 0;
 }
 
